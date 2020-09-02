@@ -32,6 +32,7 @@ a:hover {
   allign: center;
 }
 img {
+    object-fit: cover;
     width: 75px;
     height: 75px;
     position: relative;
