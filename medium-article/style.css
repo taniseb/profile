@@ -1,0 +1,39 @@
+
+    A banner with a background image, containing a title and description
+    A centered container (with left/right automatic margin) for the article’s content
+    Inside this container: headers, paragraphs and links
+    Notice: container responsiveness + nice hover effect on links
+.body{
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight=lighter;
+  font-family: 'Lora', serif;
+}
+
+.banner{
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding 120px 0;
+}
+.container{
+  width: 700px;
+  margin: 50px auto;
+}
+h1,h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold
+}
+.banner p{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+a{
+  text-decoration: none;
+}
+a.hover{
+  color:green;
+}
