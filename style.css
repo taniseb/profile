@@ -1,0 +1,85 @@
+body{
+  background: #c8c3cc;
+  color: #484f4f;
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  margin-bottom: 40px;
+
+}
+h1{
+  font-family: 'Raleway', sans-serif, bold;
+  color: black;
+  font-weight: lighter;
+  font-size: 22px;
+  text-align: center;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: center;
+}
+a {
+  color: #563f46;
+  font-family: 'Raleway Dots';
+}
+a:hover {
+  font-family: 'Raleway Dots';
+  text-decoration: none;
+  color: purple;
+  allign: center;
+}
+img {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+  max-width: 500px;
+}
+.card-purple {
+  text-align: center;
+  border-radius: 2%;
+  padding: 20px;
+  border: 15px #927e9e solid;
+  background-color: #dec5ed;
+  margin-top: 40px;
+}
+.btn-purple{
+  background-color: #dec5ed;
+  border-radius: 4px;
+  border: 2px #927e9e solid;
+  width:160px;
+  padding:4px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+@media (max-width: 300px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 250px;
+  }
+
+
